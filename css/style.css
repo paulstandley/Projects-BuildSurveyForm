@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(206, 205, 205);
+}
+
+.formClass {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgb(199, 199, 183);
+  font-size: 1.2rem;
+}
