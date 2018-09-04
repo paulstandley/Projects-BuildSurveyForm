@@ -13,13 +13,38 @@
 Cupcake ipsum dolor sit. Amet I love carrot cake caramels topping biscuit jelly-o biscuit. Jelly-o jelly-o danish biscuit brownie oat cake oat cake.
   </p>
   <div id="survey-form">
-    <form action="" class="formClass">
+    <form action="#" class="formClass">
+      <label for="name" id="name-label">Name</label>
       <input id="name" name="name" type="text" value="name" size="20">
+      <p>Add your name</p>
       <br />
+      <hr />
+      <label for="email" id="email-label">Email</label>
       <input type="email" name="email" id="email" value="email" size="20">
+      <p>Add your email</p>
       <br />
-      <input type="number" name="age" id="number" max="100" min="0">
+      <hr />
+      <label for="number" id="number-label">Number</label>
+      <input type="number" name="number" value="number" id="number" max="100" min="0">
+      <p>Add your age</p>
       <br />
+      <hr />
+      <select id="dropdown">
+        <option value="codeing">Codeing</option>
+        <option value="music">Music</option>
+        <option value="work">Work</option>
+      </select>
+      <br />
+      <input type="radio" name="gender" value="male" checked>
+      <p>Male</p>
+      <br>
+      <input type="radio" name="gender" value="female">
+      <p>Female</p>
+      <br>
+      <input type="radio" name="gender" value="other">
+      <p>Other</p>
+      <br />
+      <hr />
       <input type="submit">
     </form>
   </div>
