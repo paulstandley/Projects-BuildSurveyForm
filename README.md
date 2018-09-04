@@ -50,4 +50,4 @@ __http://127.0.0.1:5500/Projects-BuildSurveyForm/index.html?name=Paul+Standley&e
 
 ### Free Code Camp CDN
 
-(__CDN__)['https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js']
+[CDN]('https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js') https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
