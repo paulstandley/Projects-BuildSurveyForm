@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
+  <script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   <title>SurveyForm</title>
 </head>
 <body>
@@ -12,29 +13,29 @@
   <p id="description">
 Cupcake ipsum dolor sit. Amet I love carrot cake caramels topping biscuit jelly-o biscuit. Jelly-o jelly-o danish biscuit brownie oat cake oat cake.
   </p>
-  <div id="survey-form">
-    <form action="#" class="formClass">
+  <div id="survey-form-div">
+    <form action="#" class="formClass" id="survey-form">
       <label for="name" id="name-label">Name</label>
       <input id="name" name="name" type="text" value="name" size="20">
       <p>Add your name</p>
-      <br />
-      <hr />
+      <br>
+      <hr>
       <label for="email" id="email-label">Email</label>
       <input type="email" name="email" id="email" value="email" size="20">
       <p>Add your email</p>
-      <br />
-      <hr />
+      <br>
+      <hr>
       <label for="number" id="number-label">Number</label>
       <input type="number" name="number" value="number" id="number" max="100" min="0">
       <p>Add your age</p>
-      <br />
-      <hr />
+      <br>
+      <hr>
       <select id="dropdown">
         <option value="codeing">Codeing</option>
         <option value="music">Music</option>
         <option value="work">Work</option>
       </select>
-      <br />
+      <br>
       <input type="radio" name="gender" value="male" checked>
       <p>Male</p>
       <br>
@@ -43,8 +44,23 @@ Cupcake ipsum dolor sit. Amet I love carrot cake caramels topping biscuit jelly-
       <br>
       <input type="radio" name="gender" value="other">
       <p>Other</p>
-      <br />
-      <hr />
+      <br>
+      <hr>
+      <fieldset>
+        <input type="checkbox" name="cool" value="cool">
+        <p>So are you Cool</p>
+        <br>
+        <input type="checkbox" name="hot" value="hot">
+        <p>So are you Hot</p>
+        <br>
+      </fieldset>
+      <br>
+      <hr>
+      <h4>Additional Comments Welcome</h4>
+      <textarea rows="10" cols="80"></textarea>
+      <br>
+      <hr>
+      
       <input type="submit">
     </form>
   </div>
