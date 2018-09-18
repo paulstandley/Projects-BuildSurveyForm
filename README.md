@@ -42,8 +42,6 @@ Remember to use the Read-Search-Ask method if you get stuck.
 
 ### broeser responce in url
 
-__http://127.0.0.1:5500/Projects-BuildSurveyForm/index.html?name=Paul+Standley&email=paulstandley1972%40gmail.com&number=99#__
-
 __http://127.0.0.1:5500/Projects-BuildSurveyForm/index.html?name=Paul+Standley&email=paulstandley1972%40gmail.com&number=45&gender=male&cool=cool#__
 
 ----------------------------------------------------------------------

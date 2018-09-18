@@ -1,5 +1,8 @@
 body {
   background-color: rgb(206, 205, 205);
+}
+h1 {
+  font-size: 2.2rem;
   text-align: center;
 }
 p {
@@ -7,7 +10,6 @@ p {
   display: inline;
   padding: 1.6rem 1rem;
 }
-
 .formClass {
   padding: 1rem;
   margin: 1rem;
@@ -19,4 +21,28 @@ p {
   padding: 0.6em;
   margin: 1em 0.4em 4em 0.8em;
   font-size: 1.4rem;
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  p {
+    font-size: 0.8rem;
+    display: inline;
+    padding: 1rem 0.6rem;
+  }
+  .formClass {
+    width: 100%;
+    padding: 0.6rem;
+    margin: 0.6rem;
+    background-color: rgb(199, 199, 183);
+    font-size: 1rem;
+  }
+  #dropdown {
+    width: 10%;
+    padding: 0.3em;
+    margin: 0.4em 0.2em 1em 0.3em;
+    font-size: 1rem;
+  }
 }
